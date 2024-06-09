@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vino e Sapori - Quattro Castella</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #8b0000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1, h2 {
+            color: #8b0000;
+        }
+        .menu-section, .contact-section, .privacy-section {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vino e Sapori</h1>
+    <p>Quattro Castella</p>
+</header>
+
+<nav>
+    <a href="#menu">Menù</a>
+    <a href="#contatti">Contatti</a>
+    <a href="#privacy">Privacy Policy</a>
+</nav>
+
+<section id="menu" class="menu-section">
+    <h2>Menù</h2>
+    <p><strong>Antipasti:</strong></p>
+    <ul>
+        <li>Bruschette al pomodoro - €5</li>
+        <li>Tagliere di salumi - €10</li>
+    </ul>
+    <p><strong>Primi Piatti:</strong></p>
+    <ul>
+        <li>Spaghetti alla Carbonara - €12</li>
+        <li>Risotto ai Funghi - €14</li>
+    </ul>
+    <p><strong>Secondi Piatti:</strong></p>
+    <ul>
+        <li>Bistecca alla Fiorentina - €20</li>
+        <li>Pollo al Limone - €15</li>
+    </ul>
+    <p><strong>Dolci:</strong></p>
+    <ul>
+        <li>Tiramisù - €6</li>
+        <li>Panna Cotta - €5</li>
+    </ul>
+</section>
+
+<section id="contatti" class="contact-section">
+    <h2>Contatti</h2>
+    <p>Indirizzo: Via Roma, 1, Quattro Castella (RE)</p>
+    <p>Telefono: <a href="tel:+390521123456">0521 123456</a></p>
+    <p>Email: <a href="mailto:info@vinoesapori.it">info@vinoesapori.it</a></p>
+    <p>Orari di apertura:</p>
+    <ul>
+        <li>Lunedì - Venerdì: 12:00 - 15:00, 19:00 - 23:00</li>
+        <li>Sabato - Domenica: 12:00 - 23:00</li>
+    </ul>
+</section>
+
+<section id="privacy" class="privacy-section">
+    <h2>Privacy Policy</h2>
+    <p>La nostra privacy policy descrive come raccogliamo, utilizziamo e proteggiamo i dati personali. Per ulteriori dettagli, contattaci all'email sopra.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Vino e Sapori - Quattro Castella. Tutti i diritti riservati.</p>
+</footer>
+
+</body>
+</html>
