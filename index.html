@@ -97,7 +97,7 @@
 		}
 		
 		.section {
-			padding: 40px 2px;
+			padding: 40px 0px;
 			text-align: center;
 		}
 		
@@ -176,16 +176,15 @@
 <body>
     <div class="header"></div>
 	
-		<div class="section" style="background-color: #FAF7EF;">
+		<div class="section" style="background-color: #FAF7EF; padding-bottom:0px">
 			<div class="custom-column">
         <h1>Il nostro Servizio</h1>
-        <p>Ti aiuta a richiedere le recensioni dei clienti per migliorare la tua autorevolezza e prevenire i danni d’immagine, tenendo le lamentele lontano dal pubblico per primeggiare sui motori di ricerca.</p>
+        <p style="padding:20px" >Ti aiuta a richiedere le recensioni dei clienti per migliorare la tua autorevolezza e prevenire i danni d’immagine, tenendo le lamentele lontano dal pubblico per primeggiare sui motori di ricerca.</p>
 			</div>
   
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<title>Responsive Video Embed</title>
-		</head>
 		<body>
 			<div class="container">
             <div class="video-container">
@@ -238,14 +237,24 @@
 					height: auto;
 					margin-top: 20px;
 				}
-			</style>
+			
+				@media (max-width: 768px) {
+				.contact-container {
+					flex-direction: column;
+					align-items: center;
+				}
+				.contact-buttons {
+					margin-top: 20px;
+				}
+			}
+		</style>
 		</head>
 		<body>
 			<div class="custom-section" style="background-color: #FAF7EF;">
 				<div class="custom-column">
 					<h2>Consulenza Tecnica</h2>
 					<p>Prenota un appuntamento per spiegarci le tue esigenze e provarlo gratis per 30 giorni, al termine forniremo un preventivo per il tuo abbonamento.</p>
-					<img src="images/consulenza-tecnica.jpg" alt="Consulenza Tecnica" class="custom-img">
+					<img src="images/consulenza-tecnica.jpg" alt="Consulenza Tecnica" class="custom-img" style="max-width:100%">
 					<a href="Prenotazioni.html" class="btn">PRENOTA UNA PROVA GRATUITA</a>
 				</div>
 			</div>
@@ -309,12 +318,12 @@
 			</div>
 		</div>
 		
-		<div class="section" style="padding: 20px; text-align: center;">
+		<div class="section" style="text-align: center; width:100%">
 			<h2 style="margin-bottom: 20px;">Contatti</h2>
-			<p>Siamo sempre disponibili per rispondere a qualsiasi richiesta di informazioni. Non esitate a contattarci attraverso i nostri canali disponibili qui di seguito.</p>
+			<p style="padding: 0px 20px;">Siamo sempre disponibili per rispondere a qualsiasi richiesta di informazioni. Non esitate a contattarci attraverso i nostri canali disponibili qui di seguito.</p>
 			<div class="contact-container" style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 1200px; margin-left: auto; margin-right: auto;">
 				<div class="contact-info" style="flex: 1 1 300px; text-align: center; margin-right: 20px;">
-					<img src="images/chiama.jpg" alt="chiama" style="max-width: 100%; height: auto; margin-top: auto; max-width: 400px;">
+					<img src="images/chiama.jpg" alt="chiama" style="max-width: 100%; height: auto; margin-top: auto;">
 				</div>
 				<div class="contact-buttons" style="display: flex; flex-direction: column; align-items: center; flex: 1 1 300px; margin-top: 20px;">
 					<a href="https://wa.me/393482595855?text=Vorrei%20pi%C3%B9%20informazioni%20sul%20vostro%20servizio" class="btn" style="margin-bottom: 30px; width: 300px;">Mandaci un WhatsApp</a>
@@ -323,17 +332,7 @@
 				</div>
 			</div>
 		</div>
-		<style>
-			@media (max-width: 768px) {
-				.contact-container {
-					flex-direction: column;
-					align-items: center;
-				}
-				.contact-buttons {
-					margin-top: 20px;
-				}
-			}
-		</style>
+
 
         <div class="footer">
             <p>Mail: <a href="mailto:tapognaniriccardo@gmail.com?cc=goldenopinion.5star@gmail.com&subject=Info" class="contact-link">tapognaniriccardo@gmail.com</a><br>
